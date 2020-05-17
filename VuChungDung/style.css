@@ -7,6 +7,17 @@
     list-style: none;
     color: black;
 }
+/* -------------------------------------------------------- */
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.text-color-white{
+    color: white;
+}
+/* -------------------------------------------------------- */
 .wrap{
     width: 1024px;
     margin: 0 auto;
@@ -29,13 +40,11 @@
     width: 100px;
     text-align: right;
 }
-.navbar-menu__link{
-    font-size: 15px;
-}
 .header-logo__heading{
     border: 2px solid black;
     padding: 2px 16px;
 }
+/* ------------------------------------------------ */
 .main{
     background-color: #EFEFEF;
 }
@@ -51,7 +60,6 @@
 .main-introduce__description{
     line-height: 24px;
     padding: 20px 220px;
-    font-size: 14px;
 }
 .main-list-items{
     display: flex;
@@ -68,7 +76,6 @@
     margin-top: -8px;
 }
 .main-item__date{
-    font-size: 14px;
     font-weight: 600;
     color: #FFB800;
 }
@@ -83,12 +90,12 @@
 .btn-view{
     width: 160px;
     height: 38px;
-    color: white;
     background-color: #FFB800;
     border-radius: 20px;
     border: none;
     outline: none;
 }
+/* ----------------------------------------------------------- */
 .footer-content{
     padding: 0px 15px;
     height: 60px;
@@ -99,8 +106,4 @@
 .footer-content__alias{
     padding: 0px 15px;
     flex: 1;
-}
-.alias{
-    color: white;
-    font-size: 14px;
 }
