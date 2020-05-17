@@ -79,10 +79,10 @@
     align-items: center;
 }
 .main-detail__footer--text{
-    color: rgba(255, 102, 0, 0.884);
+    color: #f01111;
 }
 .main-detail__footer--btn{
-    background-color: rgba(255, 102, 0, 0.884);
+    background-color: #f01111;
     border: none;
     width: 120px;
     height: 38px;
