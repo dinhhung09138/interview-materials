@@ -5,12 +5,29 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+/* ---------------------------------------- */
+.flex-item{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.main-detail__img-left{
+    width: 100%;
+}
+.border-dotted{
+    border-bottom: 1px dotted black;
+}
+.color-black{
+    color: black;
+}
+.line-height-25{
+    line-height: 25px;
+}
+/* ---------------------------------------- */
 .wrap{
     width: 1170px;
     margin: 0 auto;
-}
-.header{
-    border-bottom: 1px dotted black;
 }
 .header-content{
     height: 60px;
@@ -18,10 +35,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.navbar-menu{
-    display: flex;
-}
-.navbar-menu li{
+.navbar-menu .navbar-menu__item{
     list-style: none;
     width: 60px;
     text-align: center;
@@ -29,9 +43,6 @@
 }
 .navbar-menu__item:last-child{
     border: none;
-}
-.navbar-menu__link{
-    color: black;
 }
 /* ----------------------------------------------------- */
 .main-content{
@@ -43,31 +54,12 @@
     font-size: 74px;
     margin: 20px 0px;
 }
-.main-detail{
-    display: flex;
-}
-.main-detail__img{
-    flex: 1;
-}
-.main-detail__text{
-    flex: 1;
-}
-.main-detail__img--left{
-    width: 100%;
-}
-.main-detail__text{
-    margin-left: 30px;
-}
-.main-detail__title{
-    padding-bottom: 10px;
-}
+
 .main-detail__description{
-    line-height: 25px;
     padding-bottom: 16px;
 }
 .main-detail__list{
     padding-left: 18px;
-    line-height: 25px;
     padding-bottom: 30px;
 }
 .main-detail__link{
@@ -78,10 +70,7 @@
     display: flex;
     align-items: center;
 }
-.main-detail__footer--text{
-    color: #f01111;
-}
-.main-detail__footer--btn{
+.main-detail__footer-btn{
     background-color: #f01111;
     border: none;
     width: 120px;
@@ -91,14 +80,19 @@
     border-radius: 10px;
     margin-left: 16px;
 }
+.main-detail__text{
+    margin-left: 30px;
+}
+.main-detail__title{
+    padding-bottom: 10px;
+}
+.main-detail__footer-text{
+    color: #f01111;
+}
 /* --------------------------------------------------- */
 .main-items{
-    display: flex;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-.main-item__detail{
-    display: flex;
 }
 .main-item__detail.left{
     margin-right: 10px;
@@ -110,10 +104,7 @@
     width: 100%;
     padding-right: 20px;
 }
-.main-item__info{
-    line-height: 25px;
-}
-.main-item__img--left{
+.main-item__img-left{
     width: 180px;
     height: 220px;
 }
