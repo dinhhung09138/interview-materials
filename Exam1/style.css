@@ -3,34 +3,34 @@
     padding: 0;
 }
 
-.a-component {
+.1khoi {
     height: 119%;
     width: 50%;
     float: left;
 }
 
-.a-compoent-content {
+.content-1khoi {
     width: 56%;
     float: left;
     margin-left: 3%;
 }
 
-.a-compoent-content span {
+.content-1khoi span {
     font-size: 30px;
     font-weight: bold;
     color: orange;
 }
 
-.a-compoent-content h1 {
+.content-1khoi h1 {
     text-transform: uppercase;
     font-size: 25px;
 }
 
-.a-compoent-content p {
+.content-1khoi p {
     font-size: 17px;
 }
 
-.a-component a {
+.1khoia {
     display: block;
     float: left;
 }
