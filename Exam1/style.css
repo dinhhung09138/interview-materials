@@ -3,34 +3,34 @@
     padding: 0;
 }
 
-.1khoi {
+.read-more-component {
     height: 119%;
     width: 50%;
     float: left;
 }
 
-.content-1khoi {
+.read-more-content {
     width: 56%;
     float: left;
     margin-left: 3%;
 }
 
-.content-1khoi span {
+.read-more-content span {
     font-size: 30px;
     font-weight: bold;
     color: orange;
 }
 
-.content-1khoi h1 {
+.read-more-content h1 {
     text-transform: uppercase;
     font-size: 25px;
 }
 
-.content-1khoi p {
+.read-more-content p {
     font-size: 17px;
 }
 
-.1khoia {
+.read-more-component a {
     display: block;
     float: left;
 }
@@ -149,7 +149,7 @@ header {
     float: left;
     width: 50%;
 }
-.list-components div.a-component:nth-child(2){
+.list-components div.read-more-component:nth-child(2){
     width: 48%;
     margin-left: 2%;
 }
