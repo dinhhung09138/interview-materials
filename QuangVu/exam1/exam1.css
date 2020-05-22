@@ -141,9 +141,11 @@ p.description {
 .container .posts .post-img{
     width: 35%;
 }
+
 .container .posts .post-img img{
     width: 100%;
 }
+
 .container .posts .post-body{
     width: 60%;
     margin-left: 20px;
