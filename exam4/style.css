@@ -1,0 +1,197 @@
+body{
+	margin:2px auto;
+	padding: 0;
+   max-width: 1024px;
+   min-width: 600px;
+}
+/*----------------- top--------------------*/
+#top{
+background-color:#f8f7f6;
+height: 200px;
+}
+
+#top_content{
+padding:20px;
+line-height: 10px;
+}
+#content_tron{
+	float: left;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background-color: #666769;
+	margin-left: 10px;
+}
+#top_content h2{
+	float: left;
+	margin-left: 30px;
+}
+#headertittle{
+
+	clear: both;
+	background-color: #00bbf9;
+	margin-top: 60px;
+	height: 100px;
+	text-align: center;
+}
+#headertittle h1{
+	font-size: 55px;
+	line-height: 100px;
+	color: #ffffff;
+}
+@media screen and (max-width:600px){
+	#headertittle h1{
+
+		font-size: 30px;
+	}
+}
+/*----------------- body--------------------*/
+
+#body{
+height: 650px;
+padding-bottom: 60px;
+background-color:#f8f7f6;
+}
+.body_left{
+float: left;
+width: 60%;
+height: 100%;
+
+
+}
+#body_left_content{
+	padding:0px 35px ;
+}
+#body_left_content h1{
+font-size: 41px;
+letter-spacing: 3px;
+color: #9d9d9f;
+}
+#left_content_img img{
+height: 300px;
+width:100%;
+}
+#left_content_text{
+margin-top: 0px;
+}
+#left_content_text > p{
+font-size: 30px;
+color: #959597;
+}
+#left_content_text ul{
+float: left;
+margin-top: 0px;
+}
+#left_content_text ul li p{
+font-size: 20px;
+margin-top: 0px;
+color: #959597;
+}
+
+
+
+.body_right{
+float: right;
+width: 35%;
+height: 100%;
+padding-top: 35px;
+padding-right: 30px;
+}
+#body_right_content{
+background-color:#dadbdd;
+padding-top: 45px;
+
+}
+.bdr_form{
+padding-bottom: 30px;
+}
+.form_singn_up{
+
+}
+.form_singn_up input[type="text"]{
+width: 280px;
+height: 50px;
+margin:22px 0px;
+}
+.form_singn_up input[type="submit"]{
+width: 280px;
+height: 60px;
+margin:10px 0px 10px 0px;
+border-radius: 30px;
+background-color: #fe6104;
+color: #ffead9;
+font-size: 30px;
+}
+.bdr_form a{
+font-size: 25px;
+font-weight: bold;
+line-height: 0px;
+}
+.bdr_img{
+	margin-top: 10px;
+}
+#img_display{
+	float: left;
+	width: 33.33%;
+}
+.bdr_img img{
+height: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+	
+	.body_left,.body_right{
+		float: none;
+		width: 100%;
+	}
+	.body_right{
+		display: none;
+	}
+	#body_left_content h1{
+       font-size: 40px;
+	}
+	#left_content_img img{
+		height: 220px;
+		width: 100%;
+	}
+
+}
+
+/*----------------- top--------------------*/
+#bottom{
+background-color:#efefef;
+height: 200px;
+}
+#bottom_content{
+padding-top: 50px;
+}
+
+.img_icon{
+float: left;
+height: 100px;
+width: 100px;
+background-color: black;
+margin-left: 50px;
+margin-top: 10px;
+
+}
+.bottom_detail{
+float: left;
+margin-left: 40px;
+}
+.bottom_detail h1{
+ text-align: left;
+ line-height: 0px;
+}
+.bottom_detail p{
+	font-size:18px;
+}
+

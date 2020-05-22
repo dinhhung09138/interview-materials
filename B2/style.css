@@ -1,0 +1,185 @@
+body{
+	margin:2px auto;
+	max-width: 1024px;
+
+}
+#content_h{
+width: 100%;
+height: 60px;
+background-color: #ffffff;
+}
+
+#ch_left{
+float: left;
+height: 100%;
+width: 50%;
+}
+
+#ch_left div{
+float: left;
+margin-left: 50px;
+border:1px solid black;
+height: 20px;
+width: 200px;
+margin-top: 15px;
+text-align: center;
+border-radius: 4px;
+padding: 0px 0px 10px 0px;
+}
+#ch_left div h4{
+
+font-size: 18px;
+line-height: 0px;
+margin:15px;
+
+}
+#ch_right{
+float: right;
+height: 100%;
+width: 50%;
+}
+
+.chr_menu{
+
+}
+.chr_menu ul{
+	padding: 5px;
+}
+.chr_menu ul li{
+	float: left;
+	margin-left:50px;
+	list-style-type: none;
+}
+.chr_menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #3c3c3c;
+}
+
+/*---------------------------------------------body   */
+
+
+
+#content_b{
+width: 1024px;
+height: 650px;
+background-color: #e2dfdf;
+}
+
+#cb_t{
+height: 150px;
+
+padding-top: 10px;
+}
+#cbt_content{
+line-height: 0px;
+}
+#cbt_content h2{
+font-size: 40px;
+top: 0px;
+}
+
+
+
+#cb_m{
+height: 400px;
+padding:0px;
+
+}
+
+
+#cb_m:after{
+
+display: table;
+clear: both;
+content: "";
+}
+
+.cbm_colums{
+float: left;
+width: 33.33%;
+height:100%;
+
+
+}
+@media screen and (max-width: 600px){
+.cbm_colums{
+width: 100%;
+}
+}
+.cbmc_c{
+padding: 20px;
+
+}
+.cbmcc_khung{
+	background-color: #ffffff;
+}
+.cbmc_c img{
+	background-color: red;
+	height:200px;
+	width:100%;
+}
+
+.cbmc_c h4{
+color: #f2a900;
+line-height: 5px;
+text-align: left;
+text-indent: 10px;
+
+}
+.cbmc_c h3{
+line-height:5px;
+text-align: left;
+text-indent: 10px;
+
+}
+.cbmc_c p{
+	text-align: left;
+margin-left: 10px;
+padding-bottom: 10px;
+
+}
+#cb_b{
+	margin-top: 20px;
+height: 100px;
+background-color: #e2dfdf;
+}
+
+#cb_b #button{
+	background-color: #f2a900;
+
+	height: 40px;
+	width: 180px;
+	border: 1px solid black;
+	border-radius: 20px;
+	text-align: center;
+}
+#cb_b #button a{
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+
+
+/*---------------------------------------------footer   */
+
+
+#content_f{
+width: 100%;
+height: 100px;
+background-color:#000000;
+margin-top: 5px;
+}
+#content_f .cbm_colums div
+{
+	line-height: 10px;
+	border-bottom: 1px solid #4b4b49;
+	text-align: left;
+	margin-left: 30px;
+	color: #ffffff;
+}
