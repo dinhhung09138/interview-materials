@@ -1,0 +1,168 @@
+* {padding: 0px; margin: 0px;}
+
+body {
+    background: lightgray;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background: white;
+}
+
+.header {
+    padding: 20px 20px;
+    display: flex;
+}
+
+.header .circle{
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 50%;
+}
+
+.header .company-name{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.headline{
+    text-transform: uppercase;
+    background: deepskyblue;
+    color: white;
+    font-size: 42px;
+    padding-left: 25px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.content {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .col-8{
+    padding: 0px 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.content .col-8 .second-headline{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content .col-8 ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.content .col-8 ul li {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.content .col-8 ul li a{
+    text-decoration: none;
+}
+
+.content .col-8 .description{
+    margin-top: 20px;
+    width: 450px;
+}
+
+.content .col-4{
+    width: 35%;
+    margin: 15px 50px 30px 40px;
+}
+
+.col-4 .form-group{
+    width: 95%;
+    height: 393px;
+    margin: auto;
+    text-align: center;
+    padding-top: 33px;
+    background: lightgray;
+}
+
+.col-4 .form-group input{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid yellowgreen;
+    margin-bottom: 31px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col-4 .form-group button{
+    width: 190px;
+    height: 50px;
+    background: coral;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border: 1px solid coral;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.col-4 .form-group small{
+    display: block;
+}
+
+.col-4 .form-group small a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.col-4 .paying-method{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-4 .paying-method img{
+    border: 1px solid #414141;
+}
+
+.footer{
+    background: whitesmoke;
+    padding: 20px;
+    display: flex;
+}
+
+.footer .col-3 .square{
+    width: 100px;
+    height: 100px;
+    background: #414141;
+}
+
+.footer .col-9 {
+    margin-left: 20px;
+}
+
+.footer .col-9 .title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer .col-9 .title a {
+    text-decoration: none;
+}
+
+.footer .col-9 .text{
+    font-size: 15px;
+    margin-top: 10px;
+    color: gray;
+}
