@@ -1,0 +1,134 @@
+﻿* {
+    text-decoration: none;
+}
+
+body {
+    background: #808080;
+}
+
+.wrap-page {
+    width: 1024px;
+    height: 1000px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+/*HEADER*/
+.header {
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+    /*LOGO*/
+    .header .logo {
+        float: left;
+        font-size: x-large;
+        padding-top: 10px;
+    }
+
+        .header .logo .logo-news span {
+            border-radius: 50%;
+            background-color: red;
+        }
+    /*NAVIGATION*/
+    .header .navigation {
+        width: 511px;
+        float: right;
+    }
+
+        .header .navigation .nav ul li {
+            list-style-type: none;
+            float: right;
+            padding-left: 14px;
+        }
+
+hr {
+    border: 4px solid #ffd800;
+    width: 950px;
+    align-content: center;
+}
+.hr-footer{
+    margin-top:50px;
+}
+
+/*CONTAINER*/
+.wrap-contain{
+    padding-bottom:50px;
+}
+.container .headline a span{
+    font-size:x-large;
+    font-weight:800;
+    text-transform:uppercase;
+}
+    .container .wrap-contain .image a img{
+        width:490px;
+        height:310px;
+        float:left;
+    }
+    .container .wrap-contain .contain .posts{
+        font-size:20px;
+    }
+    .container .wrap-contain .contain .posts ul li{
+        margin:0 auto;
+    }
+    .doitnow{
+        font-size:28px;
+        font-weight:500;
+        color:#ff6a00;
+        padding-right:30px;
+    }
+    .clickhere{
+        font-size:28px;
+        background-color:#ff6a00;
+        color:#ffffff;
+        border-radius:10px;
+    }
+
+/*FOOTER*/
+.footer .l-footer{
+    float:left;
+}
+.footer .r-footer{
+    float:left;
+}
+    /*LEFT FOOTER*/
+.footer .l-footer .lf-image {
+display: inline-block;
+}
+    .footer .l-footer .lf-image a img{
+    width:200px;
+    height:200px;
+    }
+    .footer .l-footer .lf-contain {
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        float: right;
+    }
+        .footer .l-footer .lf-contain a h1 {
+        text-transform: uppercase;
+        font-size: 15px;
+        }
+        .footer .l-footer .lf-contain .secure {
+            color: #ff6a00;
+        }
+
+    /*RIGHT FOOTER*/
+.footer .r-footer .rf-image {
+    display: inline-block;
+}
+ 
+    .footer .r-footer .rf-image a img {
+        width: 200px;
+        height: 200px;
+    }
+    .footer .r-footer .rf-contain {
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        float: right;
+    }
+        .footer .r-footer .rf-contain a h1 {
+            text-transform: uppercase;
+            font-size: 15px;
+        }
