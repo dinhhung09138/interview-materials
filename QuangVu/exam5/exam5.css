@@ -1,0 +1,251 @@
+* {padding: 0px; margin: 0px;}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .left-header{
+    width: 400px;
+    height: 150px;
+    background: lightgray;
+}
+
+.header ul.top-right-header{
+    list-style: none;
+    display: flex;
+}
+.header ul.top-right-header li{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header ul.top-right-header li a {
+    color: black;
+}
+
+.header ul.top-right-header #search{
+    border: 1px solid lightgray;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.header .bottom-right-header{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+
+ul.nav-bar{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+ul.nav-bar li{
+    margin-right: 50px;
+}
+ul.nav-bar li a{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ul.nav-bar #blog a{
+    color: blue;
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .left-content{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 63%;
+}
+
+.content .left-content .post::after {
+    content: "";
+    width: 500px;
+    height: 1px;
+    background: lightgray;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.content .left-content .post .title{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+.content .left-content .post .title a{
+    text-decoration: none;
+    color: #414141;
+}
+.content .left-content .post .post-info{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+.content .left-content .post ul.share-link{
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+.content .left-content .post ul.share-link li{
+    margin-right: 25px;
+}
+
+.content .left-content .post .post-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .left-content .post .post-details .detail{
+    margin-left: 15px;
+}
+
+.content .left-content .post .read-more{
+    float: right;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    background: #414141;
+    border-radius: 12px;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.content .right-content{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 32%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+.right-content .text-block {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+.right-content .title{
+    color: #414141;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.right-content .text-block p{
+    font-size: 15px;
+    color: gray;
+}
+.right-content .summit-block{
+    text-align: center;
+}
+.right-content .summit-block p{
+    margin-bottom: 15px;
+}
+.right-content .summit-block b{
+    margin-right: 12px;
+}
+.right-content .summit-block input{
+    width: 115px;
+    border-radius: 10px;
+}
+.right-content .summit-block button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    background: dodgerblue;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+.right-content .summit-block small{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.right-content .popular-post ul{margin-left: 28px;}
+.right-content .popular-post ul li{
+    margin-bottom: 5px;
+}
+
+.right-content .popular-post ul li a{
+    text-decoration: none;
+}
+.right-content .popular-post ul li a span{
+    color: red;
+}
+
+.footer{
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: darkgray;
+    color: white;
+}
+
+.footer .col-2 .title{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+.footer .col-2 ul{
+    margin-left: 20px;
+}
+
+.footer .col-2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer .col-6{
+    width: 40%;
+}
+.footer .col-6 .title{
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+}
+.footer .col-6 b{
+    display: block;
+    font-size: 14px;
+    margin: 12px 0px;
+}
+
+.footer .col-6 #connect{
+    display: inline;
+}
+
+.footer .col-6 ul{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+.footer .col-6 ul li{
+    margin-right: 10px;
+    display: inline;
+}
