@@ -1,0 +1,113 @@
+* {padding: 0; margin: 0;}
+
+body {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0px 5px;
+}
+
+.container span {
+    color: white;
+}
+
+.container span {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+}
+
+#testimonial {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.container .header {
+    background-color: #414141;
+    width: 100%;
+    height: 250px;
+    margin: 8px 0px;
+    position: relative;
+}
+
+.container .header .headshot{
+    width: 280px;
+    height: 150px;
+    border: 2px solid deepskyblue;
+    border-radius: 22px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+
+.container .header .sign-up{
+    width: 240px;
+    height: 240px;
+    background-color: yellowgreen;
+    position: absolute;
+    right: 100px;
+    top: 45px;
+}
+
+.container .summary{
+    background-color: white;
+    padding: 20px 40px;
+    width: 100%;
+    height: 210px;
+    color: #414141;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.container .summary .summary-text{
+    width: 45%;
+}
+
+.container .summary .summary-list{
+    margin-top: 15px;
+}
+
+.container .summary .summary-list ol{
+    margin-left: 20px;
+}
+
+.container .benefit{
+    background-color: yellowgreen;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container .benefit .benefit-blocks {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container .benefit .benefit-block{
+    background-color: #414141;
+    width: 300px;
+    height: 75px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    margin-left: 35px;
+}
+
