@@ -1,0 +1,104 @@
+﻿*{
+    padding:0; margin:0;
+}
+
+body {
+    background-color:#16eeb2;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1{
+    text-align:center;
+    color:#ffffff;
+    font-size:x-large;
+    font-weight:600;
+}
+/*HEADSHOT*/
+.headshot{
+    height:150px;
+    background-color:#4fd31b;
+    padding: 30px 0 0 30px;
+    margin:0 10px;
+}
+    /*PHOTO AND VIDEO BLOCK*/
+    .headshot .photo-video {
+        display:inline-block;
+        width: 300px;
+        height: 100px;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+        .headshot .photo-video p {
+            color: #16eeb2;
+            text-align:center;
+            padding-top:35px;
+            font-size:x-large;
+            font-weight:600;
+        }
+    /*SIGN UP FORM BLOCK*/
+    .headshot .signup-form {
+        position: absolute;
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        background-color: #ebe833;
+        right: 30px;
+        top: 120px;
+    }
+        .headshot .signup-form p {
+            color: #16eeb2;
+            text-align: center;
+            padding-top: 35px;
+            font-size: x-large;
+            font-weight: 600;
+        }
+/*SOCIAL PROOF*/
+.social-proof p {
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 600;
+    font-style:italic;
+}
+/*INTRO CONTENT*/
+.intro-content {
+    height: 130px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin: 0 10px;
+    background-color: #ffffff;
+    color: #16eeb2;
+    font-size: unset;
+}
+    .intro-content p {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .intro-content span {
+        position: absolute;
+        right: 70px;
+        top: 324px;
+        font-size: x-large;
+        font-style: italic;
+    }
+/*BENEFIT AND FEATURE*/
+.benefit-feature {
+    height: 150px;
+    margin: 0 10px;
+    background-color: #ffd800;
+    text-align: center;
+    color: #ffffff;
+}
+.benefit-feature table{
+    margin:0 auto;
+    padding-top:20px;
+}
+    .benefit-feature td {
+        width:150px;
+        height:50px;
+        margin-right:20px;
+        background-color: #4fd31b;
+    }
