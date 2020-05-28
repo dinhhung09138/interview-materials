@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-rendering: optimizeSpeed;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 10px 0px;
+    border-bottom: 2px dotted #5b5b5b;
+}
+
+.header-logo a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+.header-navigate{
+    display: flex;
+    align-items: center;
+}
+
+.header-navigate li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 2px solid #5b5b5b;
+    line-height: 20px;
+}
+
+.header-navigate li:last-child{
+    border: none;
+}
+
+.header-navigate a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+.hot-news{
+    padding: 15px 0px;
+    border-bottom: 2px dotted #5b5b5b;
+}
+
+.hot-news h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #22d1ee;
+}
+
+.hot-news .hot-new-contain{
+    display: flex;
+}
+
+.hot-news .hot-new-contain .banner, .hot-news .hot-new-contain .content{
+    width: 50%;
+}
+
+.hot-news .hot-new-contain .banner{
+    padding-right: 5px;
+}
+
+.hot-news .hot-new-contain .content{
+    padding-left: 5px;
+}
+
+.hot-news .hot-new-contain .banner img{
+    width: 100%;
+}
+
+.hot-news .hot-new-contain .content h2{
+    text-transform: uppercase;
+}
+
+.hot-news .hot-new-contain .content p{
+    color: #5b5b5b;
+    padding-bottom: 20px;
+}
+
+.hot-news .hot-new-contain .content ul{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hot-news .hot-new-contain .content .action{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f85959;
+}
+
+.hot-news .hot-new-contain .content .action a{
+    padding: 10px 15px;
+    background-color: #f85959;
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.news-post{
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.news-item__thumb{
+    margin-right: 10px;
+}
