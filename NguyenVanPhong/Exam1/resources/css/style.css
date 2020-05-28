@@ -49,7 +49,8 @@ header{
 }
 
 .hot-news{
-    padding: 10px 0px;
+    padding: 15px 0px;
+    border-bottom: 2px dotted #5b5b5b;
 }
 
 .hot-news h1{
@@ -106,4 +107,21 @@ header{
     text-decoration: none;
     border-radius: 10px;
     margin-left: 10px;
+}
+
+.news-post{
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.news-item__thumb{
+    margin-right: 10px;
 }
