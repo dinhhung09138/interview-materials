@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica , Arial , sans-serif;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color:#A4A4A4;
+	transition: all 0.5s;
+}
+a:hover {
+	color: #2E2E2E;
+}
+
+a:visited {
+	color: #265778;
+}
+.text-strong {
+	text-transform: uppercase;
+}
+.flex {
+	display: flex;
+}
+#menu {
+	justify-content: space-between; 
+
+}
+.left-menu {
+	margin-bottom: -2em;
+}
+.list-menu {
+	list-style-type: none;
+}
+.text-menu-li {
+	padding-right: 50px;
+}
+.left-size {
+	padding-left: 3em;
+}
+.logo {
+	border: 3px solid #2E2E2E;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#right-menu {
+	padding-top: 15px;
+}
+.text-center {
+	text-align: center;
+}
+.content-color {
+	background-color: #E6E6E6;
+	margin: 0;
+}
+#footer {
+	background-color: #1C1C1C;
+	color: white;
+}
+.text-cta {
+	    padding-top: 2em;
+    padding-bottom: 0.5em;
+
+}
+.text-cta-bottom {
+
+	padding-bottom: 2em;
+}
+.box-color {
+	background-color: white;
+	box-shadow: 5px 5px 5px #BDBDBD;
+}
+.content-box1 {
+	width: 26%;
+    height: 0%
+}
+
+.content-box2 {
+	width: 26%;
+ 	height: 0%
+  
+}
+
+.content-box3 {
+    width: 26%;
+ 	height: 0%;
+}
+.text-content-align {
+	padding-left: 1.6em;
+}
+.text-yellow {
+	color: #D7DF01;
+	font-weight: bold;
+}
+.text-bold-black {
+
+	font-weight: bold;
+	text-shadow: 0.5;
+}
+.box-btn {
+	padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+.text-button {
+	color: aliceblue;
+	font-size: 16px;
+}
+.button {
+	margin-left: 20px;
+	background-color: #FFBF00;
+	border-radius: 20px;
+	width: 186px;
+	height: 46px;
+	margin-top: 16px;
+	border: thin;
+	box-shadow: 3px 3px 3px lightblue;
+}
+}
+.light-text1 {
+
+	opacity: 0.88;
+}
+.light-text2 {
+	opacity: 0.70;
+}
+.head-footer {
+	font-size: large;
+	border-bottom: 1px solid;
+	padding-bottom: 1em;
+	padding-top: 1.5em;
+}
+.content-footer {
+	font-size: smaller !important;
+}
+.box-footer1 {
+	padding-left: 5em;
+    width: 75em;
+    padding-bottom: 1.5em;
+}
+.box-footer2 {
+	margin-left: 3em;
+	padding-bottom: 1.5em;
+
+}
+.box-footer3 {
+	margin-left: 3em;
+    margin-right: 2em;
+    padding-bottom: 1.5em;
+}
+
+.content-center {
+	justify-content: space-evenly;
+}
