@@ -1,0 +1,103 @@
+body {
+    background: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.gray {
+    color: gray;
+}
+
+.bg-white {
+    background: white;
+}
+
+.lg-btn {
+    width: 200px;
+}
+
+.btn-circle {
+    border-radius: 20px;
+}
+
+.badge-secondary {
+    background: #d4d4d4;
+    color: #414141;
+    padding: 5px 8px;
+}
+
+.active {
+    font-size: 16px;
+    color: white;
+    padding: 6px 10px;
+}
+
+.search-body {
+    background: white;
+}
+
+.input-group {
+    padding-left: 0px;
+}
+
+.menu-bar {
+    border: 1px solid gray;
+    background: #e8e8e8;
+    border-radius: 10px;
+}
+
+.menu-item {
+    padding: 5px 0px;
+}
+
+.menu-item a {
+    color:#414141;
+}
+
+.menu-bar .active {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background: lightgray;
+    line-height: 25px;
+    padding-top: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.search-rs i{
+    color: red;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.border-bt::after {
+    content: "";
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background: lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .lg-btn {
+        width: 100px;
+    }
+}
