@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica , Arial , sans-serif;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+}
+a {
+	text-decoration: none;
+	color:#A4A4A4;
+	transition: all 0.5s;
+}
+a:hover {
+	color: #2E2E2E;
+}
+
+a:visited {
+	color: #265778;
+}
+.text-strong {
+	text-transform: uppercase;
+}
+.flex {
+	display: flex;
+}
+.text-headline1{
+	background-color: blue;
+
+}
+.text-headline2{
+	background-color: blue;
+	text-align: center;
+}
+.flex-box{
+	display: flex;
+    justify-content: space-around;
+}
+.box {
+	background-color: #0A2229;
+    width: 15em;
+    height: 4em;
+    text-align: center;
+}
+.box1 {
+	margin-bottom: 2em;
+}
+.box-align {
+	padding-bottom: 1.5em;
+}
+.text-box {
+	font-size: x-large;
+    padding-top: 15px;
+    color: white;
+    opacity: 0.8;
+}
+.clr-yellow {
+	background-color: #5E610B;
+}
+.flex-head {
+	display: flex;
+    justify-content: space-between;
+    background-color: #0A2229;
+}
+.bg-white {
+	background-color: white;
+	margin-top: 3em;
+    margin-bottom: 5em;
+    margin-left: 3em;
+    border-radius: 25px;
+    width: 25%;
+    text-align: center;
+    color: cornflowerblue;
+}
+.position {
+	position: absolute;
+    margin-left: 63%;
+    width: 31%;
+    height: 45%;
+    text-align: center;
+    margin-top: 3em;
+
+}
+
+.head-content2 {
+	margin-left: 3em;
+    color: antiquewhite;
+    margin-top: 0em;
+   /* margin-bottom: -1em; */
+}
+.clear-line {
+	 margin-top: -2em;
+    margin-bottom: -2em; 
+}
+.footer {
+	margin-bottom: -1.5em;
+    margin-top: -1.5em;
+}
+.text-head-content {
+	padding-top: 0.5em;
+    font-size: x-large;
+    padding-bottom: 0.5em;
+    color: aliceblue;
+}
+.bg-white1 {
+	background-color: white;
+	color: black;
+}
+ul {
+	list-style-type: decimal;
+    font-size: large;
+}
+}
+.flex {
+	display: flex;
+
+}
+.jc {
+		justify-content:space-between;
+}
+.box-align-content {
+    text-align: center;
+    padding-right: 4em;
+    padding-top: 3em;
+    font-size: x-large;
+}
+.line {
+
+    padding-left: 1.5em;
+    font-size: large;
+}
+.text-ps {
+	font-size: x-large;
+	margin-top: 33%;
+}
+.clear-bottom {
+	margin-bottom: -1.5em;
+}
+.clear1 {
+	margin-top: -1.5em;
+    margin-bottom: -1.5em;
+}
