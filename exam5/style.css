@@ -1,25 +1,37 @@
 body{
 	margin: 0px auto;
 	max-width: 1024px;
+	padding: 0;
 }
 .headerContent{
+padding-top:30px;
+
 }
 #headerTop{
-background-color:yellow;
 height: 100px;
+margin-top: 40px;
 }
 #headerTopLeft{
 float:left;
 width: 50%;
 }
+#headerTopLeft img{
+	height: 100px;
+	width: 90%;
+	margin-left:20px;
+}
 #headerTopRight{
 	float: right;
-    width: 49%;
-    height: 100%;
+	width: 49%;
+	height: 100%;
 }
 #headerBot{
-height: 50px;
-background-color:green;
+	margin-top: 10px;
+	height: 50px;
+}
+.menuCommon ul{
+	margin:0;
+	padding: 0;
 }
 .menuCommon ul li{
 	list-style-type: none;
@@ -33,7 +45,7 @@ background-color:green;
 	border-radius: 10px;
 	height: 25px;
 	width: 180px;
-	margin-right: 20px;
+    margin-right: 20px;
 }
 #inforTell{
 	float: right;
@@ -41,28 +53,213 @@ background-color:green;
 	margin-right: 40px;
 }
 #inforTell h2{
-font-size: 30px;
-
+	font-size: 30px;
+}
+.menuHeader ul{
+	margin:0;
+	padding: 0;
 }
 .menuHeader ul li{
 padding:0px 25px;
 line-height:0px;
 }
 .menuHeader ul li a{
-font-size: 30px;
+font-size: 25px;
+line-height: 40px;
 }
 /*--------body ---------*/
 .bodyContent{
 	margin-top: 0px;
-background-color:blue;
+	padding-left:20px;
+	padding-right: 20px;
+	height:1300px;
+}
+
+
+#bodyContentLeft{
+background-color:whitesmoke;
+width: 655px;
+float: left;
+height: 100%;
+border-radius: 5px;
+}
+
+.contentCommon{
+	height: 300px;
+	padding: 5px 5px 10px 25px;
+}
+.contentCommon h2{
+	padding-top:2px;
+	padding-bottom: 2px;
+}
+.contentCommon h4{
+	line-height:1px;
+}
+.iconContent{
+line-height: 5px;
+height: 22px;
+}
+.iconTitle{
+	float: left;
+	padding-right:20px;
+	margin-left:0px;
+}
+.iconTitle::after{
+	clear: both;
+}
+.textContent{
+
+	height:200px;
+	margin-top: 10px;
+}
+.imgContentCommon{
+	width: 28%;
+	height: 150px;
+	float: left;
+}
+.textContentCommon{
+	float: right;
+	width: 68%;
+	margin-top: 0px;
+	height:300px;
+}
+.textContentCommon input[type="button"],.textContentCommon2 input[type="button"]{
+	float: right;
+	margin-right: 50px;
+	height:30px;
+	width: 120px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+.textContentCommon2{
+	float: left;
+}
+.imgContent3 img{
+	width: 100%;
+	height:150px;
+	margin-top: 10px;
+}
+.lineBot{
+	margin: 0px auto;
+	height: 2px;
+	width: 85%;
+	background-color: black;
+}
+.btnOlder{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.btnOlder input{
+	width: 160px;
+	height: 30px;
+	background-color: slateblue;
+	color: white;
+	border-radius: 5px;
+}
+#bodyContentRight{
+width: 325px;
+float: right;
+height:1300px;
+border-radius: 10px;
+
+
+}
+.contentRight{
+	border: 2px solid gray;
+	border-radius: 6px;
+	padding: 20px;
+	height: 1255px;
+   background-color:silver;
+}
+.contentPanel{
+	
+	height: 180px;
+	background-color: beige;
+	border:1px solid white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 0px 15px;
+}
+.contentPanel>h3,.contentPanel>h4,.contentPanel>h5{
+	text-align: center;
+	margin:10px;
+}
+.contentPanel input[type="text"]{
+	border-radius: 9px;
+	height: 20px;
+	margin-left: 20px;
+}
+.contentPanel input[type="button"]{
+	margin-left: 50px;
+	margin-top: 10px;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: navy;
+	color: white;
+}
+.contentPanel>ul li a{
+	text-decoration: none;
+}
+
+/*------- footer---------*/
+.footerContent{
+padding: 0px 20px;
+height: 250px;
+
 
 }
 
 
-/*------- footer---------*/
-.footerContent{
-background-color: green;
+.footer1{
+	float: left;
+	background-color: gray;
+	height: 100%;
+	width: 16.6%;	
+}
 
+
+.footer1>h2{
+	text-align: center;
+	color: blue;
+}
+.footer1>ul li a{
+	text-decoration: none;
+	color: white;
+}
+.footer2>h2{
+	color:orangered;
+}
+.footer2{
+	float: left;
+	background-color: gray;
+	height: 100%;
+	width: 50.2%;
+	color: white;
+	
+}
+.panelIcon{
+	background-color: white;
+	width: 220px;
+	border-radius: 5px;
+	padding: 4px 2px 0px 4px;
+	
+}
+.connectUs{
+	margin-top: 40px;
+}
+#panelText{
+	float: left;
+}
+.panelIcon{
+	float: left;
+	margin-left: 25px;
+}
+.panelIcon a img{
+
+	height: 40px;
+	width: 40px;
 }
 .clear{
 clear: both;
